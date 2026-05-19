@@ -1,0 +1,49 @@
+/*------------- all fonts ------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*------------- all roots ------------*/
+:root{
+    --primary-font: "Inter", sans-serif;
+    --primary-size: 17px;
+    --primary-weight: 400;
+    --primary-color: #282828;
+}
+
+/*------------- common css class ------------*/
+img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*------------- common css class ------------*/
+
+.primary-font{
+    font-family: var(--primary-font);
+    font-size: var(--primary-size);
+    font-weight: var(--primary-weight);
+    color: var(--primary-color);
+}
+
+/*------------- nav css start ------------*/
+.navbar .btn{
+    font-family: var(--primary-font);
+    font-size: var(--primary-size);
+    font-weight: var(--primary-weight);
+    color: var(--primary-color);
+}
+.navbar .btn:hover{
+    background: #65BD7D;
+    color: white;
+    border: 1px solid #65BD7D;
+}
+/*------------- nav css end ------------*/
+/*------------- banner css start ------------*/
+.banner{
+    padding-top: 68px;
+    padding-bottom: 67px;
+    background: #FFE979;
+}
+.banner .col-lg-6 .ban_img img{
+    width: 483px
+}
+/*------------- banner css end ------------*/
