@@ -10,6 +10,7 @@
 }
 
 /*------------- common css class ------------*/
+
 img{
     width: 100%;
     height: 100%;
@@ -19,7 +20,7 @@ img{
 
 .primary-font{
     font-family: var(--primary-font);
-    font-size: var(--primary-size);
+    font-size: var(--prigit push -u origin mainmary-size);
     font-weight: var(--primary-weight);
     color: var(--primary-color);
 }
@@ -45,5 +46,33 @@ img{
 }
 .banner .col-lg-6 .ban_img img{
     width: 483px
+}
+.banner h1{
+    margin-top: 63px;
+    margin-bottom: 32px;
+    font-family: var(--primary-font);
+    font-size: 45px;
+    font-weight: 700;
+}
+.banner p{
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: var(--primary-weight);
+    line-height: 30px;
+    letter-spacing: 2%;
+}
+.banner .btn{
+    padding: 13px 17px 13px 25px;
+    border-radius: 5px;
+}
+.banner .btn:hover{
+    background: red;
+    border: 1px solid red;
+}
+.banner .btn:hover i{
+    font-size: 20px;
+}
+.banner .btn i{
+    margin-right: 23px;
 }
 /*------------- banner css end ------------*/
